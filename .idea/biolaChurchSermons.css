@@ -20,9 +20,10 @@ ul li{
 }
 
 ul li a:hover{
-    background-color: green;
+    background-color: mediumaquamarine;
 }
 
 #navbar {
     text-decoration: none;
+    color: black;
 } 
