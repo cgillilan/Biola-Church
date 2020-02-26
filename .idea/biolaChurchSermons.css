@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century Gothic;
+}
+
+header{
+    background-color: #e7f2e5;
+    padding: 20px;
+}
+
+ul{
+    list-style-type:none;
+    text-align-last:center;
+}
+
+ul li{
+    display:inline;
+    padding: 15px 20px;
+}
+
+ul li a:hover{
+    background-color: green;
+}
+
+#navbar {
+    text-decoration: none;
+} 
