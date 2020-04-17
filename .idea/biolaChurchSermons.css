@@ -5,13 +5,21 @@
 }
 
 header{
-    background-color: #e7f2e5;
-    padding: 20px;
+    position: relative;
+    background-color: white;
+    height: 60px;
+}
+
+section{
+    float: left;
+    padding-top: 10px;
+    padding-left: 40px;
 }
 
 ul{
     list-style-type:none;
-    text-align-last:center;
+    padding-top: 20px;
+    padding-left:455px;
 }
 
 ul li{
@@ -19,11 +27,11 @@ ul li{
     padding: 15px 20px;
 }
 
-ul li a:hover{
-    background-color: mediumaquamarine;
+#navbar:hover{
+    color: #dddddd;
 }
 
 #navbar {
     text-decoration: none;
     color: black;
-} 
+}

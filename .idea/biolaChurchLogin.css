@@ -35,3 +35,25 @@ ul li{
     text-decoration: none;
     color: black;
 }
+
+.container{
+    float: left;
+    width: 100%;
+    height: 640px;
+}
+
+.container.left{
+    width: 20%;
+    padding: 100px 50px 0px 200px;
+    height: 300px;
+}
+
+.container.right{
+    width: 20%;
+    padding: 100px 100px 0px 200px;
+    height: 300px;
+}
+
+label{
+    padding-bottom: 30px;
+}
