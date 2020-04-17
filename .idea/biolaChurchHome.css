@@ -5,13 +5,21 @@
 }
 
 header{
-    background-color: #e7f2e5;
-    padding: 20px;
+    position: relative;
+    background-color: white;
+    height: 60px;
+}
+
+section{
+    float: left;
+    padding-top: 10px;
+    padding-left: 40px;
 }
 
 ul{
     list-style-type:none;
-    text-align-last:center;
+    padding-top: 20px;
+    padding-left:455px;
 }
 
 ul li{
@@ -19,10 +27,171 @@ ul li{
     padding: 15px 20px;
 }
 
-ul li a:hover{
-    background-color: green;
+#navbar:hover{
+    color: #dddddd;
 }
 
 #navbar {
     text-decoration: none;
+    color: black;
+}
+
+.column{
+    height: 500px;
+    float: left;
+}
+
+.column.left{
+    width: 50%;
+}
+
+.column.right{
+    width: 50%;
+}
+
+.column.right.top{
+    height: 250px;
+    width: 100%;
+}
+
+.column.right.bottom{
+    width: 100%;
+    height: 50%;
+}
+
+.column.right.bottom.left{
+    width: 50%;
+}
+.column.right.bottom.right{
+    width: 50%;
+}
+
+.row{
+    height: 250px;
+    float: left;
+}
+
+.row.left{
+    width: 155px;
+}
+
+.row.middle{
+    height: 175px;
+    width: 26%;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.row.middle.left{
+    width: 26%;
+    border-right: 1px solid black;
+}
+
+.row.middle.right{
+    width: 26%;
+    border-left: 1px solid black;
+}
+
+.row.words{
+    height: 50px;
+    padding: 0px 50px 30px 50px;
+}
+
+.btn{
+    border: 1px solid black;
+    color: #d63939;
+    padding: 14px 25px;
+    cursor: pointer;
+    background-color: white;
+    border-color: #d63939;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #d63939;
+}
+
+.service.times{
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    color: white;
+}
+
+.service.times.centered{
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 44px;
+}
+
+.sermon{
+    float: left;
+    height: 600px;
+    width: 100%;
+}
+
+.sermon.left{
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 200px;
+    height: 450px;
+    width:20%;
+}
+
+.sermon.right{
+    padding-top: 100px;
+    padding-left:100px;
+    height: 500px;
+    width:55%;
+}
+
+.sermon.words{
+    height: 30px;
+    padding: 40px 0px 30px 0px;
+}
+
+iframe	{
+    width:700px;
+    height: 400px;
+}
+
+.info{
+    float: left;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: #B41225;
+}
+
+.info.left{
+    width: 150px;
+    height: 300px;
+    padding: 100px 200px 0px 200px;
+}
+
+.info.left.centered{
+    padding: 0px 0px 0px 0px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+.info.right{
+    padding-top: 50px;
+    height: 450px;
+    width: 50%;
+}
+
+.connect.words{
+    padding: 20px 0px 0px 0px;
 }
