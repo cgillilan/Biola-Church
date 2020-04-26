@@ -171,9 +171,11 @@ iframe	{
     width: 100%;
     text-align: center;
     background-color: #B41225;
+    background: linear-gradient(180deg, rgba(180,18,37,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 .info.left{
+    background: none;
     width: 150px;
     height: 300px;
     padding: 100px 200px 0px 200px;
@@ -187,6 +189,7 @@ iframe	{
 }
 
 .info.right{
+    background: none;
     padding-top: 50px;
     height: 450px;
     width: 50%;

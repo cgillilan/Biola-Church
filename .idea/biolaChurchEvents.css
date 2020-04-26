@@ -35,3 +35,38 @@ ul li{
     text-decoration: none;
     color: black;
 }
+
+
+.info{
+    float: left;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: #B41225;
+    background: linear-gradient(180deg, rgba(180,18,37,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.info.left{
+    background: none;
+    width: 150px;
+    height: 300px;
+    padding: 100px 200px 0px 200px;
+}
+
+.info.left.centered{
+    padding: 0px 0px 0px 0px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+.info.right{
+    background: none;
+    padding-top: 50px;
+    height: 450px;
+    width: 50%;
+}
+
+.connect.words{
+    padding: 20px 0px 0px 0px;
+}

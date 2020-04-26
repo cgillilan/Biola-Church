@@ -35,3 +35,166 @@ ul li{
     text-decoration: none;
     color: black;
 }
+
+.column{
+    height: 500px;
+    float: left;
+}
+
+.column.left{
+    width: 25%;
+}
+
+.column.left.top{
+    height: 250px;
+    width: 100%;
+}
+
+.column.left.bottom{
+    width: 100%;
+    height: 50%;
+}
+
+.column.middle{
+    width: 50%;
+}
+
+.column.right{
+    width: 25%;
+}
+
+.column.right.top{
+    height: 250px;
+    width: 100%;
+}
+
+.column.right.bottom{
+    width: 100%;
+    height: 50%;
+}
+
+
+.middle.title{
+    position: absolute;
+    color: white;
+    top: 280px;
+    left: 390px;
+    font-size: 25px;
+}
+
+.find.ministry{
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+}
+
+.find.ministry.words{
+    font-size: 45px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.ministries{
+    float: left;
+    height: 1400px;
+}
+
+.ministries.top{
+    height: 700px;
+}
+
+.ministries.top.left{
+    width: 50%;
+}
+
+.childrens{
+    width: 90%;
+    padding-left: 35px;
+}
+
+.ministries.top.right{
+    width: 50%;
+}
+
+.youth{
+    width: 90%;
+    padding-left: 35px;
+}
+
+.ministries.bottom{
+    height: 50%;
+}
+
+.ministries.bottom.left{
+    width: 50%;
+}
+
+.college{
+    width: 90%;
+    padding-left: 35px;
+}
+
+.ministries.bottom.right{
+    width: 50%;
+}
+
+.marriage{
+    width: 90%;
+    padding-left: 35px;
+}
+
+h2 {
+    font-size: 39px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 23px;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: #4d7e9a;
+}
+
+p{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.info{
+    float: left;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: #B41225;
+    background: linear-gradient(180deg, rgba(180,18,37,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.info.left{
+    background: none;
+    width: 150px;
+    height: 300px;
+    padding: 100px 200px 0px 200px;
+}
+
+.info.left.centered{
+    padding: 0px 0px 0px 0px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+.info.right{
+    background: none;
+    padding-top: 50px;
+    height: 450px;
+    width: 50%;
+}
+
+.connect.words{
+    padding: 20px 0px 0px 0px;
+}

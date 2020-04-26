@@ -35,3 +35,176 @@ ul li{
     text-decoration: none;
     color: black;
 }
+
+.main.picture{
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    color: white;
+}
+
+.main.picture.centered{
+    height: 150px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.mission.statement{
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 225px;
+}
+.mission.statement.centered{
+    height: 165px;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mission.words{
+    font-size: 45px;
+}
+
+.core.values{
+    background-image: linear-gradient(180deg, rgba(245,246,252,1) 0%, rgba(131,31,107,0.73) 100%);
+    height: 515px;
+    float: left;
+    width: 1285px;
+    padding-left: 120px;
+}
+
+.core.values.container{
+    background-image: linear-gradient(180deg, rgba(245,246,252,1) 0%, rgba(131,31,107,0.73) 100%), url('biolaChurchAboutPicture2.gif');
+    background-repeat:no-repeat;
+    height: 515px;
+    width: 1150px;
+    text-align: center;
+    color: white;
+    padding-left: 0px;
+}
+
+.core.values.container.left{
+    background-image: none;
+    width: 382.3px;
+    height: 400px;
+    padding-top: 20px;
+    border-right: 1px solid white;
+}
+
+.core.values.container.middle{
+    background-image: none;
+    width: 382.3px;
+    height: 400px;
+    padding-top: 20px;
+    border-right: 1px solid white;
+}
+
+.core.values.container.right{
+    background-image: none;
+    width: 382.3px;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.core.words{
+    font-size: 60px;
+    height: 80px;
+    color: #831f6b;
+}
+
+.core.title{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.core.descrip{
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+h4{
+    font-size: 120px;
+}
+
+.staff.title{
+    float: left;
+    font-size: 40px;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.staff.body{
+    float: left;
+    height: 400px;
+    text-align: center;
+    width: 100%;
+}
+
+.staff.body.left{
+    width: 25%;
+}
+
+.staff.body.middle{
+    width: 25%;
+}
+
+.staff.body.right{
+    width: 25%;
+}
+
+.pastor.name{
+    font-size: 30px;
+    color: black;
+}
+
+.info{
+    float: left;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: #B41225;
+    background: linear-gradient(180deg, rgba(180,18,37,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.info.left{
+    background: none;
+    width: 150px;
+    height: 300px;
+    padding: 100px 200px 0px 200px;
+}
+
+.info.left.centered{
+    padding: 0px 0px 0px 0px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+.info.right{
+    background: none;
+    padding-top: 50px;
+    height: 450px;
+    width: 50%;
+}
+
+.connect.words{
+    padding: 20px 0px 0px 0px;
+}
