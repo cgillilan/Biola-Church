@@ -35,3 +35,114 @@ ul li{
     text-decoration: none;
     color: black;
 }
+
+.Sermon.Header{
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    color: white;
+}
+
+.Sermon.Header.Text{
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Sermons.Description{
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+}
+
+.Sermons.Description.Text{
+    font-size: 30px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+.Sermon.Videos{
+    height: 1200px;
+}
+
+.Sermon.Videos.Upper{
+    height: 500px;
+}
+
+.Sermon.Videos.Upper.Left{
+    float: left;
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 40%;
+}
+
+.Sermon.Videos.Upper.Right{
+    float: right;
+    padding-top: 100px;
+    padding-right: 100px;
+    width: 40%;
+}
+
+.Sermon.Videos.Lower{
+    height: 60%
+}
+
+.Sermon.Videos.Lower.Left{
+    float: left;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    width: 40%;
+}
+
+.Sermon.Videos.Lower.Right{
+    float: right;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    width: 40%;
+}
+
+iframe	{
+    width:700px;
+    height:400px;
+}
+
+.info{
+    float: left;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: #B41225;
+    background: linear-gradient(180deg, rgba(180,18,37,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.info.left{
+    background: none;
+    width: 150px;
+    height: 300px;
+    padding: 100px 200px 0px 200px;
+}
+
+.info.left.centered{
+    padding: 0px 0px 0px 0px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+.info.right{
+    background: none;
+    padding-top: 50px;
+    height: 450px;
+    width: 50%;
+}
+
+.connect.words{
+    padding: 20px 0px 0px 0px;
+}
